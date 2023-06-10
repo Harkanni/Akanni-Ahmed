@@ -24,3 +24,9 @@
 .nav-link {
     margin-right: 10px;
 }
+
+@media(min-width: 520px) {
+    body {
+        display: block;
+    }
+}
