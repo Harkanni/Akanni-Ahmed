@@ -1,30 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
   </head>
 
-  <body>
-    <h1>
-      Hello World, we are software developers!
-      Driver.
-    </h1>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+  <header id="header">
+    <img id="header-img" src="logo.png" alt="Logo">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#section1">Section 1</a>
+      <a class="nav-link" href="#section2">Section 2</a>
+      <a class="nav-link" href="#section3">Section 3</a>
+    </nav>
+  </header>
 
-    <!--
+  <section id="section1">
+    <h2>Section 1</h2>
+    <p>This is the content of section 1.</p>
+  </section>
+  
+  <section id="section2">
+    <h2>Section 2</h2>
+    <p>This is the content of section 2.</p>
+  </section>
 
-    Hello Camper!
+  <section id="section3">
+    <h2>Section 3</h2>
+    <p>This is the content of section 3.</p>
+  </section>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+  <video id="video" controls>
+    <source src="product-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-    - The freeCodeCamp Team
+  <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+    <input type="submit" id="submit" value="Submit">
+  </form>
 
-    -->
-    <script  src="js/index.js"></script>
+  <script src="script.js"></script>
   </body>
+
 </html>

@@ -1,0 +1,26 @@
+/* Ensure #nav-bar stays at the top */
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+/* Utilize CSS Flexbox */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
